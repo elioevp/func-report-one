@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.virt/
+.venv/
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+.env
+
+# Node
+**/node_modules/
+
+# VSCode
+.vscode/
+
+# Local settings - CRITICAL for security
+local.settings.json
+
+# IDE files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
