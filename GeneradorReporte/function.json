@@ -15,6 +15,15 @@
       "type": "http",
       "direction": "out",
       "name": "$return"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "documents",
+      "databaseName": "%CosmosDbDatabaseName%",
+      "collectionName": "%CosmosDbContainerName%",
+      "connectionStringSetting": "CosmosDbConnectionString",
+      "sqlQuery": "SELECT * FROM c WHERE c.username = {username} AND c.directorio = {directorio}"
     }
   ]
 }
